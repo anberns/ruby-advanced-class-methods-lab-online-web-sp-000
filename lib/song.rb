@@ -42,6 +42,7 @@ class Song
   
   def self.alphabetical
     temp = @@all.sort_by { |song| song.name.first }
+    puts temp
     temp
   end
   
