@@ -42,7 +42,6 @@ class Song
   
   def self.alphabetical
     temp = @@all.sort_by { |song| song.name[0] }
-   
     temp
   end
   
