@@ -49,7 +49,7 @@ class Song
     str = filename.split('-')
     temp = self.create
     temp.name = str[0].strip
-    temp.artist_name = str[1].trim.gsub(".mp3", "")
+    temp.artist_name = str[1].gsub(".mp3", "").strip
     
   
 
