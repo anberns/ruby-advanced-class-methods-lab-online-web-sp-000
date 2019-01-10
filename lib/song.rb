@@ -45,5 +45,12 @@ class Song
     temp
   end
   
+  def self.new_from_filename(filename)
+    str = filename.split('-')
+    temp = self.create
+    temp.name = str[0]
+    temp.artist_name = 
+    
+  
 
 end
