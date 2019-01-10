@@ -59,4 +59,8 @@ class Song
     temp
   end
   
+  def destroy_all
+    @@all.clear
+  end
+  
 end
