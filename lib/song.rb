@@ -14,5 +14,6 @@ class Song
     temp = Song.new 
     temp.save
     temp
+  end
 
 end
