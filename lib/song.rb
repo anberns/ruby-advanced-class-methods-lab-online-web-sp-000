@@ -50,7 +50,7 @@ class Song
     temp = self.create
     temp.name = str[0].strip
     temp.artist_name = str[1].gsub(".mp3", "").strip
-    
+    temp
+  end
   
-
 end
